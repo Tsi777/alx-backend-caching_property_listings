@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+*.swp
+*.swo
+*.log
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Django
+*.pot
+*.mo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+__pycache__/
+
+# Docker
+*.env
+docker-compose.override.yml
+*.log
+
+# Redis / cache
+*.rdb
+*.aof
+
+# IDE / Editor
+*.idea/
+*.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Backup / Temp
+*.bak
+*.tmp
